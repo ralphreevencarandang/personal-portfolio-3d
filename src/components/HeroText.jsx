@@ -45,7 +45,7 @@ const HeroText = () => {
                 delay:1.5
               }}
               className='font-semibold font-kanit text-4xl md:text-5xl lg:text-6xl'>
-                <span ><FlipWords words={HeroWords} className='text-red-600'/></span>
+                <span ><FlipWords words={HeroWords} className='text-blue-600'/></span>
                  Web Applications.
 
               </motion.h1>

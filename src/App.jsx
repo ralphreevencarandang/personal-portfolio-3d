@@ -1,13 +1,11 @@
 import { Routes, Route } from "react-router";
-import Navbar from "./sections/Navbar";
-import Hero from "./sections/Hero";
-
+import HomePage from "./pages/HomePage";
 function App() {
 
   return (
     <>
-      <Navbar/>
-      <Hero/>
+   
+   <HomePage/>
       <section className="min-h-screen bg-amber-300">
         {/* <Boxes/> */}
       </section>

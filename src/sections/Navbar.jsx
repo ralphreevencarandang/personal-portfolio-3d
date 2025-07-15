@@ -11,19 +11,20 @@ const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false)
 
   return (
-    <nav className='w-full fixed  shadow bg-base-100 z-20 '>
+    <nav className='w-full fixed  shadow  bg-base-100 z-20 '>
         <div className='padding-x  max-container '>
       
 
           <div className='flex items-center justify-between py-3'>
-            <p className='font-medium text-lg'>@ralphreeven</p>
+            <a href=""><p className='font-medium text-lg text-blue-600'>@ralphreeven</p></a>
+
 
             <div className='hidden sm:block'>
                  <ul className='text-center flex gap-6 items-center'>
-                    <li className='py-1 cursor-pointer font-medium'>Home</li>
-                    <li className='py-1 cursor-pointer font-medium'>Projects</li>
-                    <li className='py-1 cursor-pointer font-medium'>About</li>
-                    <li className='py-1 cursor-pointer font-medium'>Contact</li>
+                    <li className='py-1 cursor-pointer font-medium  hover:text-blue-500 transition-colors ease-in duration-100'>Home</li>
+                    <li className='py-1 cursor-pointer font-medium  hover:text-blue-500 transition-colors ease-in duration-100'>Projects</li>
+                    <li className='py-1 cursor-pointer font-medium  hover:text-blue-500 transition-colors ease-in duration-100'>About</li>
+                    <li className='py-1 cursor-pointer font-medium  hover:text-blue-500 transition-colors ease-in duration-100'>Contact</li>
                     <li><ThemeButton/></li>
                 </ul>
             </div>
@@ -72,7 +73,7 @@ const Navbar = () => {
                     initial={{ opacity: 0 }}
                     animate={{ opacity: 1}}
                     transition={{ duration: 0.3, delay: 0.1 }}
-                    className='py-2 cursor-pointer font-medium hover:text-amber-600 transition-colors'
+                    className='py-2 cursor-pointer font-medium hover:text-blue-600 transition-colors'
                   >
                     Home
                   </motion.li>
@@ -80,7 +81,7 @@ const Navbar = () => {
                     initial={{ opacity: 0 }}
                     animate={{ opacity: 1}}
                     transition={{ duration: 0.3, delay: 0.2 }}
-                    className='py-2 cursor-pointer font-medium hover:text-amber-600 transition-colors'
+                    className='py-2 cursor-pointer font-medium hover:text-blue-600 transition-colors'
                   >
                     Projects
                   </motion.li>
@@ -88,7 +89,7 @@ const Navbar = () => {
                     initial={{ opacity: 0}}
                     animate={{ opacity: 1}}
                     transition={{ duration: 0.3, delay: 0.3 }}
-                    className='py-2 cursor-pointer font-medium hover:text-amber-600 transition-colors'
+                    className='py-2 cursor-pointer font-medium hover:text-blue-600 transition-colors'
                   >
                     About
                   </motion.li>
@@ -96,7 +97,7 @@ const Navbar = () => {
                     initial={{ opacity: 0 }}
                     animate={{ opacity: 1 }}
                     transition={{ duration: 0.3, delay: 0.4 }}
-                    className='py-2 cursor-pointer font-medium hover:text-amber-600 transition-colors'
+                    className='py-2 cursor-pointer font-medium hover:text-blue-600 transition-colors'
                   >
                     Contact
                   </motion.li>

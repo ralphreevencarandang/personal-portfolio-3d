@@ -25,7 +25,7 @@ const HeroAvatar = () => {
             x: 0,
             transition:{
               ease: "linear",
-              delay: 1.5
+              delay: 1.8
             }
 
          }}

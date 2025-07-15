@@ -1,9 +1,11 @@
 import React from 'react'
 import Navbar from '../sections/Navbar'
+import Hero from '../sections/Hero'
 const HomePage = () => {
   return (
-    <section className='h-screen '>
-
+    <section className='min-h-screen '>
+    <Navbar/>
+      <Hero/>
 
     </section>
   )
