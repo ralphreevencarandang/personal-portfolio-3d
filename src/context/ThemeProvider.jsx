@@ -12,8 +12,6 @@ const ThemeProvider = (props) => {
     useEffect(()=>{
       localStorage.setItem('theme', theme)
       document.querySelector("html").setAttribute("data-theme", theme);
-
-
     }, [theme]);
 
     const toggleTheme = ()=>{
