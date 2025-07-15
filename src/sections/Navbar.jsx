@@ -5,13 +5,15 @@ import { useState } from 'react';
 import { motion } from 'motion/react';
 import { AnimatePresence } from 'motion/react';
 import ThemeButton from '../components/ThemeButton';
+
 const Navbar = () => {
 
   const [isOpen, setIsOpen] = useState(false)
 
   return (
-    <nav className='w-full fixed  shadow bg-base-100 z-20'>
+    <nav className='w-full fixed  shadow bg-base-100 z-20 '>
         <div className='padding-x  max-container '>
+      
 
           <div className='flex items-center justify-between py-3'>
             <p className='font-medium text-lg'>@ralphreeven</p>
@@ -25,20 +27,31 @@ const Navbar = () => {
                     <li><ThemeButton/></li>
                 </ul>
             </div>
-            
-            <motion.button 
-              whileTap={{ scale: 0.9 }}
-              transition={{ duration: 0.2 }}
-              onClick={()=> setIsOpen(!isOpen)}
-              className='cursor-pointer sm:hidden '>
-              <motion.div
-                  animate={{ rotate: isOpen ? 90 : 0 }}
-                  transition={{ duration: 0.3, ease: "easeInOut" }}
-                >
-                  {isOpen ? <RxCross1 size={30}/> : <GiHamburgerMenu size={30}/>}
-                </motion.div>
-              </motion.button>
+{/*       
+            <div className='sm:hidden'>
+              <ThemeButton/>
+
+            </div> */}
+
+            <div className=' sm:hidden flex gap-5'>
+                 <ThemeButton/>
+                 <motion.button 
+                  whileTap={{ scale: 0.9 }}
+                  transition={{ duration: 0.2 }}
+                  onClick={()=> setIsOpen(!isOpen)}
+                  className='cursor-pointer '>
+                  <motion.div
+                      animate={{ rotate: isOpen ? 90 : 0 }}
+                      transition={{ duration: 0.3, ease: "easeInOut" }}
+                    >
+                      {isOpen ? <RxCross1 size={30}/> : <GiHamburgerMenu size={30}/>}
+                    </motion.div>
+                </motion.button>
             </div>
+
+            </div>
+
+           
 
             <AnimatePresence>
             {isOpen && (

@@ -4,6 +4,8 @@ const HeroWords = [
     'User-friendly'
 ]
 
+
 export {
-    HeroWords
+    HeroWords,
+
 }

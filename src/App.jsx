@@ -1,16 +1,18 @@
-import { Routes, Route } from "react-router"
-import Navbar from "./sections/Navbar"
-import HomePage from "./pages/HomePage"
-import Hero from "./sections/Hero"
+import { Routes, Route } from "react-router";
+import Navbar from "./sections/Navbar";
+import Hero from "./sections/Hero";
+
 function App() {
 
   return (
     <>
       <Navbar/>
       <Hero/>
-      <section className="h-screen">1sdf</section>
-      <section className="h-screen">1</section>
-      <section className="h-screen">1</section>
+      <section className="min-h-screen bg-amber-300">
+        {/* <Boxes/> */}
+      </section>
+      <section className="h-screen bg-amber-700">1</section>
+      <section className="h-screen bg-blue-500">1</section>
     </>
   )
 }
