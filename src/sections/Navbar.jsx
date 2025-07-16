@@ -11,7 +11,7 @@ const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false)
 
   return (
-    <nav className='w-full fixed  shadow  bg-base-100 z-20 '>
+    <nav className='w-full fixed  shadow  bg-base-100 z-50 '>
         <div className='padding-x  max-container '>
       
 
@@ -23,6 +23,7 @@ const Navbar = () => {
                  <ul className='text-center flex gap-6 items-center'>
                     <li className='py-1 cursor-pointer font-medium  hover:text-blue-500 transition-colors ease-in duration-100'><a href="#home">Home</a></li>
                     <li className='py-1 cursor-pointer font-medium  hover:text-blue-500 transition-colors ease-in duration-100'><a href="#projects">Projects</a></li>
+                    <li className='py-1 cursor-pointer font-medium  hover:text-blue-500 transition-colors ease-in duration-100'><a href="#skills">Skills</a></li>
                     <li className='py-1 cursor-pointer font-medium  hover:text-blue-500 transition-colors ease-in duration-100'><a href="#about">About</a></li>
                     <li className='py-1 cursor-pointer font-medium  hover:text-blue-500 transition-colors ease-in duration-100'>Contact</li>
                     <li><ThemeButton/></li>
@@ -76,6 +77,14 @@ const Navbar = () => {
                     className='py-2 cursor-pointer font-medium hover:text-blue-600 transition-colors'
                   >
                     <a href="#home">Home</a>
+                  </motion.li>
+                  <motion.li 
+                    initial={{ opacity: 0 }}
+                    animate={{ opacity: 1}}
+                    transition={{ duration: 0.3, delay: 0.2 }}
+                    className='py-2 cursor-pointer font-medium hover:text-blue-600 transition-colors'
+                  >
+                    <a href="#skills">Skills</a>
                   </motion.li>
                   <motion.li 
                     initial={{ opacity: 0 }}

@@ -3,6 +3,7 @@ import { HeroWords } from '../constant'
 import { FlipWords } from './Flipwords'
 import { motion } from 'motion/react'
 import SocialIcons from './SocialIcons'
+import Button from './Button'
 const slideInVariants = {
   initial: {
     opacity: 0,
@@ -51,7 +52,8 @@ const HeroText = () => {
               </motion.h1>
 
         
-            <div className='py-5'>
+            <div className='py-5 flex gap-2'>
+                    <Button/>
                     <SocialIcons/>
             </div>
           </div>

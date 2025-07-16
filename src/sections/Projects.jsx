@@ -9,8 +9,8 @@ import CardIcon from '../components/CardIcon';
 const Projects = () => {
 
   return (
-    <section className='min-h-screen max-container padding-x  pt-10' id='projects'>
-            <h1 className='text-5xl font-kanit py-10 font-semibold text-blue-700 '>Projects</h1>
+    <section className='min-h-screen max-container padding-x pt-10' id='projects'>
+            <h1 className='text-5xl font-kanit py-10  text-blue-700 '>Projects</h1>
             <BentoGrid className="w-full mx-auto md:auto-rows-[20rem]  ">
                 {BentoGridItems.map((item, i) => (
                     <BentoGridItem

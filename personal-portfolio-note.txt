@@ -28,3 +28,34 @@ About
 Me
 Internship
 School
+
+
+Skills Stacks
+Frontend
+
+2. HTML
+3. CSS
+4. Javascript
+5. Bootstrap
+1. React
+6. Tailwind
+7. Daisy UI
+8. Aceternity UI
+9. Framer Motion
+
+Backend
+1. Express JS
+2. Node JS
+3. PHP
+4. Code Igniter
+5. Mongo DB
+6. SQL
+7. Typescript
+
+Tools
+1. Git
+2. Vite
+3. Postman
+4. Vercel
+5. Render
+6. Figma

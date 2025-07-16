@@ -67,7 +67,7 @@ export const BackgroundBeamsWithCollision = ({
     <div
       ref={parentRef}
       className={twMerge(
-        "min-h-screen  bg-gradient-to-b from-white to-neutral-100 dark:from-neutral-950 dark:to-neutral-800 relative bg-base-100 overflow-hidden",
+        "min-h-[90vh]   bg-gradient-to-b from-white to-neutral-100 dark:from-neutral-950 dark:to-neutral-800 relative bg-base-100 overflow-hidden",
         // h-screen if you want bigger
         className
       )}>

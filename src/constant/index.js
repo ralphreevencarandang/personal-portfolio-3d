@@ -7,7 +7,29 @@ import {  dishcovery,
     memoir,
      cvsuLogo,
     formalPic,
-    supsoft
+    supsoft,
+     acernity,
+    boostrap,
+    css,
+    daisy,
+    framer,
+    html,
+    jscript,
+    react,
+    tailwind,
+       codeigniter,
+        express,
+        mongo,
+        node,
+        php,
+        sql,
+        typescript,
+        git,
+        figma,
+        postman,
+        render,
+        vercel,
+        vite
   } from "../assets/images";
 
 
@@ -58,7 +80,7 @@ const BentoGridItems = [
     imgUrl: memoir,
     websiteUrl: 'https://memoirapp-frontend.onrender.com/',
     githubUrl: 'https://github.com/ralphreevencarandang/MemoirApp',
-     techStack: ['React', 'Express', 'Node JS', 'MongoDB', 'Tanstack', 'TailwindCSS']
+     techStack: ['React', 'Express', 'Node JS', 'MongoDB', 'Tanstack', 'TailwindCSS', 'Redis']
 
   },
   {
@@ -107,10 +129,96 @@ const aboutInfo = [
 ]
 
 
+const techStackIcon = [
+  {
+    frontend: [
+      {
+        imgUrl: html
+      },
+      {
+        imgUrl: css
+      },
+      {
+        imgUrl: jscript
+      },
+      {
+        imgUrl: boostrap
+      },
+        {
+        imgUrl: tailwind
+      },
+        {
+        imgUrl: react
+
+      },
+      {
+           imgUrl: framer
+         },
+      {
+        imgUrl: acernity
+      },
+
+      {
+        imgUrl: daisy
+      },
+     
+   
+     
+    
+    
+    ],
+    backend: [
+      {
+        imgUrl: express
+      },
+      {
+        imgUrl: node
+      },
+      {
+        imgUrl: mongo
+      },
+      {
+        imgUrl: php
+      },
+      {
+        imgUrl: codeigniter
+      },
+      {
+        imgUrl: sql
+      },
+      {
+        imgUrl: typescript
+      },
+    ],
+    tools: [
+      {
+        imgUrl: git
+      },
+      {
+        imgUrl: figma
+      },
+      {
+        imgUrl: postman
+      },
+      {
+        imgUrl: vite
+      },
+      {
+        imgUrl: vercel
+      },
+      {
+        imgUrl: render
+      },
+    ]
+  },
+
+]
+
 
 export {
     HeroWords,
     BentoGridItems,
-    aboutInfo
+    aboutInfo,
+    techStackIcon
 
 }

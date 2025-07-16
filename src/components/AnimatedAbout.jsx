@@ -33,7 +33,7 @@ export const AnimatedAbout = ({
   };
   return (
     <div
-      className="mx-auto max-w-md px-4 pb-20 font-sans antialiased md:max-w-7xl md:px-8 lg:px-12  ">
+      className="mx-auto max-w-md px-4 pb-10 font-sans antialiased md:max-w-7xl md:px-8 lg:px-12 ">
       <div className="relative grid grid-cols-1 gap-20 md:grid-cols-2  ">
         <div>
           <div className="relative h-100 w-full">
@@ -67,7 +67,7 @@ export const AnimatedAbout = ({
                     duration: 0.4,
                     ease: "easeInOut",
                   }}
-                  className="absolute inset-0 origin-bottom ">
+                  className="absolute inset-0 origin-bottom  ">
                   <img
                     src={item.imgUrl}
                     alt={item.title}
