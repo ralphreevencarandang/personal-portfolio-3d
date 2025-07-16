@@ -16,14 +16,14 @@ const Navbar = () => {
       
 
           <div className='flex items-center justify-between py-3'>
-            <a href=""><p className='font-medium text-lg text-blue-600'>@ralphreeven</p></a>
+            <a href=""><p className='font-medium text-lg hover:text-blue-600'>@ralphreeven</p></a>
 
 
             <div className='hidden sm:block'>
                  <ul className='text-center flex gap-6 items-center'>
-                    <li className='py-1 cursor-pointer font-medium  hover:text-blue-500 transition-colors ease-in duration-100'>Home</li>
-                    <li className='py-1 cursor-pointer font-medium  hover:text-blue-500 transition-colors ease-in duration-100'>Projects</li>
-                    <li className='py-1 cursor-pointer font-medium  hover:text-blue-500 transition-colors ease-in duration-100'>About</li>
+                    <li className='py-1 cursor-pointer font-medium  hover:text-blue-500 transition-colors ease-in duration-100'><a href="#home">Home</a></li>
+                    <li className='py-1 cursor-pointer font-medium  hover:text-blue-500 transition-colors ease-in duration-100'><a href="#projects">Projects</a></li>
+                    <li className='py-1 cursor-pointer font-medium  hover:text-blue-500 transition-colors ease-in duration-100'><a href="#about">About</a></li>
                     <li className='py-1 cursor-pointer font-medium  hover:text-blue-500 transition-colors ease-in duration-100'>Contact</li>
                     <li><ThemeButton/></li>
                 </ul>
@@ -75,7 +75,7 @@ const Navbar = () => {
                     transition={{ duration: 0.3, delay: 0.1 }}
                     className='py-2 cursor-pointer font-medium hover:text-blue-600 transition-colors'
                   >
-                    Home
+                    <a href="#home">Home</a>
                   </motion.li>
                   <motion.li 
                     initial={{ opacity: 0 }}
@@ -83,7 +83,7 @@ const Navbar = () => {
                     transition={{ duration: 0.3, delay: 0.2 }}
                     className='py-2 cursor-pointer font-medium hover:text-blue-600 transition-colors'
                   >
-                    Projects
+                    <a href="#projects">Projects</a>
                   </motion.li>
                   <motion.li 
                     initial={{ opacity: 0}}
@@ -91,7 +91,7 @@ const Navbar = () => {
                     transition={{ duration: 0.3, delay: 0.3 }}
                     className='py-2 cursor-pointer font-medium hover:text-blue-600 transition-colors'
                   >
-                    About
+                    <a href="#about">About</a>
                   </motion.li>
                   <motion.li 
                     initial={{ opacity: 0 }}

@@ -1,10 +1,14 @@
-import { FaGithub  } from "react-icons/fa";
+
 import {  dishcovery,
     quotiva,
     nike,
     niki,
     movieApp,
-    memoir } from "../assets/images";
+    memoir,
+     cvsuLogo,
+    formalPic,
+    supsoft
+  } from "../assets/images";
 
 
 const HeroWords = [
@@ -81,10 +85,32 @@ const BentoGridItems = [
 
 ];
 
+const aboutInfo = [
+  {
+    title:'Ralph Reeven Carandang',
+    subtitle:'Web Developer',
+    description: 'I\'m a passionate and motivated individual with a strong interest in web and software development. I enjoy turning ideas into functional and user-friendly applications. I\'m always exploring new technologies and ways to improve my skills, particularly in front-end development, React.js, and other modern tools. I value teamwork, problem-solving, and the ability to adapt in fast-paced environments. Outside of coding, I enjoy design, learning new tech trends, and working on personal projects that challenge me creatively.',
+    imgUrl: formalPic
+  },
+  {
+    title:'Cavite State University — Silang Campus',
+    subtitle:'BS in Information Technology',
+    description: 'I am a graduating student of Cavite State University – Silang Campus, taking up Bachelor of Science in Information Technology. Over the past four years, I’ve gained solid knowledge in areas such as web development, programming, networking, and database systems. My academic journey has helped me build a strong technical foundation and a mindset for continuous learning and improvement.',
+    imgUrl: cvsuLogo
+  },
+  {
+    title:'Supsoft Technologies',
+    subtitle:'Frontend Developer',
+    description: 'I completed my internship at Supsfot Technologies, where I gained hands-on experience in real-world development processes. During my internship, I was able to apply my classroom knowledge to actual tasks like building responsive web pages, maintaining websites, and assisting in debugging and testing. This experience taught me the importance of collaboration, version control, and writing clean, maintainable code — all essential skills I aim to bring into my future career.',
+    imgUrl: supsoft
+  },
+]
+
 
 
 export {
     HeroWords,
-    BentoGridItems
+    BentoGridItems,
+    aboutInfo
 
 }

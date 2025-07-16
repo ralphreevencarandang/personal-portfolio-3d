@@ -1,0 +1,30 @@
+projects
+
+Animated Testimonials
+AppleCards Carousel
+Bento Grid
+
+Card Hover Effect
+Card Spotligfht
+Glowing Effect
+Infinite Moving Cards
+
+Loader
+Projects
+1. Memoir https://memoirapp-frontend.onrender.com/
+2, NikeWebsite
+3. Movie App
+4. Niki
+5. Quotiva
+6. Dishcovery
+
+
+Projects 
+Skills
+About Me
+Contact
+
+About
+Me
+Internship
+School
