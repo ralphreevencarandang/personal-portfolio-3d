@@ -2,14 +2,15 @@ import React from 'react'
 import { BentoGrid , BentoGridItem} from '../components/BentoGrid'
 import { BentoGridItems } from '../constant';
 import Skeleton from '../components/Skeleton';
-
 import CardIcon from '../components/CardIcon';
-
+import { motion } from 'motion/react';
 
 const Projects = () => {
 
   return (
-    <section className='min-h-screen max-container padding-x pt-10' id='projects'>
+    <section
+
+     className='min-h-screen max-container padding-x pt-10' id='projects'>
             <h1 className='text-5xl font-kanit py-10  text-blue-700 '>Projects</h1>
             <BentoGrid className="w-full mx-auto md:auto-rows-[20rem]  ">
                 {BentoGridItems.map((item, i) => (

@@ -1,6 +1,7 @@
 
 import { twMerge } from "tailwind-merge";
 import ToolUsed from "./ToolUsed";
+import { motion } from "motion/react";
 export const BentoGrid = ({
   className,
   children
@@ -26,7 +27,19 @@ export const BentoGridItem = ({
 }) => {
     
   return (
-    <div
+    <motion.div
+        initial={{
+          opacity: 0,
+      
+        }}
+        whileInView={{
+          opacity:1,
+        }}
+        transition={{
+          duration: 1.5,
+          ease:"circInOut"
+        
+        }}
       className={twMerge(
         "group/bento shadow-input row-span-1 flex flex-col justify-between space-y-4 rounded-xl border border-neutral-200 bg-white p-4 transition duration-200 hover:shadow-xl dark:border-white/[0.2] dark:bg-base-200 dark:shadow-none",
         className
@@ -49,6 +62,6 @@ export const BentoGridItem = ({
             )}
         </div>
       </div>
-    </div>
+    </motion.div>
   );
 };

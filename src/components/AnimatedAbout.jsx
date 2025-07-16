@@ -35,7 +35,11 @@ export const AnimatedAbout = ({
     <div
       className="mx-auto max-w-md px-4 pb-10 font-sans antialiased md:max-w-7xl md:px-8 lg:px-12 ">
       <div className="relative grid grid-cols-1 gap-20 md:grid-cols-2  ">
-        <div>
+        <motion.div 
+          initial={{ x: -50}}
+        whileInView={{ x: 0}}
+        transition={{duration: 1, ease:"easeIn" }}
+        >
           <div className="relative h-100 w-full">
             <AnimatePresence>
               {aboutInfo.map((item, index) => (
@@ -79,8 +83,13 @@ export const AnimatedAbout = ({
               ))}
             </AnimatePresence>
           </div>
-        </div>
-        <div className="flex flex-col justify-between py-4  ">
+        </motion.div>
+
+        <motion.div className="flex flex-col justify-between py-4 "
+        initial={{ x: 50}}
+        whileInView={{ x: 0}}
+        transition={{duration: 1, ease:"easeIn" }}
+        >
           <motion.div
             key={active}
             initial={{
@@ -144,7 +153,7 @@ export const AnimatedAbout = ({
                 className="h-5 w-5 text-black transition-transform duration-300 group-hover/button:-rotate-12 dark:text-neutral-400" />
             </button>
           </div>
-        </div>
+        </motion.div>
       </div>
     </div>
   );

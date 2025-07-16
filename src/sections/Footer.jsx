@@ -7,7 +7,7 @@ const Footer = () => {
           <div>
             <SocialIcons/>
           </div>
-            <p className='font-shadow py-3'>Designed and Created by Ralph Carandang</p>
+            <p className='font-shadow py-3 text-lg'>Designed and Created by Ralph Carandang</p>
         </div>
     </div>
   )
