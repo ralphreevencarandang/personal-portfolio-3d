@@ -10,7 +10,7 @@ const Card = ({title, icon, techStack}) => {
 
             <div className='grid grid-cols-3 place-items-center gap-2 py-4'>
                 {techStack.map((item, index) =>
-                    <img src={item.imgUrl} alt="Icon Url" className='w-13 h-13 grayscale-100  hover:grayscale-0 transition-all ease-in duration-200' key={index} />
+                    <img src={item.imgUrl} alt="Icon Url" className='w-13 h-13 grayscale-100  hover:grayscale-0 transition-all ease-in duration-100' key={index} />
                 )}
             </div>
         </div>
