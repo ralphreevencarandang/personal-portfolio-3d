@@ -40,7 +40,7 @@ export const AnimatedAbout = ({
         whileInView={{ x: 0}}
         transition={{duration: 1, ease:"easeIn" }}
         >
-          <div className="relative h-100 w-full">
+          <div className="relative h-60 sm:h-100 w-full ">
             <AnimatePresence>
               {aboutInfo.map((item, index) => (
                 <motion.div
@@ -142,15 +142,15 @@ export const AnimatedAbout = ({
           <div className="flex gap-4 pt-12 md:pt-3">
             <button
               onClick={handlePrev}
-              className="group/button flex h-7 w-7 items-center justify-center rounded-full bg-gray-100 dark:bg-neutral-800">
+              className="group/button flex h-10 w-10 items-center justify-center rounded-full bg-gray-100 dark:bg-neutral-800">
               <IconArrowLeft
-                className="h-5 w-5 text-black transition-transform duration-300 group-hover/button:rotate-12 dark:text-neutral-400" />
+                className="h-7 w-7 text-black transition-transform duration-300 group-hover/button:rotate-12 dark:text-neutral-400" />
             </button>
             <button
               onClick={handleNext}
-              className="group/button flex h-7 w-7 items-center justify-center rounded-full bg-gray-100 dark:bg-neutral-800">
+              className="group/button flex h-10 w-10 items-center justify-center rounded-full bg-gray-100 dark:bg-neutral-800">
               <IconArrowRight
-                className="h-5 w-5 text-black transition-transform duration-300 group-hover/button:-rotate-12 dark:text-neutral-400" />
+                className="h-7 w-7 text-black transition-transform duration-300 group-hover/button:-rotate-12 dark:text-neutral-400" />
             </button>
           </div>
         </motion.div>
