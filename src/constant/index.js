@@ -122,7 +122,7 @@ const aboutInfo = [
   },
   {
     title:'Supsoft Technologies',
-    subtitle:'Frontend Developer',
+    subtitle:'Frontend Developer - Intern ',
     description: 'I completed my internship at Supsfot Technologies, where I gained hands-on experience in real-world development processes. During my internship, I was able to apply my classroom knowledge to actual tasks like building responsive web pages, maintaining websites, and assisting in debugging and testing. This experience taught me the importance of collaboration, version control, and writing clean, maintainable code — all essential skills I aim to bring into my future career.',
     imgUrl: supsoft
   },

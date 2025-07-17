@@ -34,13 +34,14 @@ export const AnimatedAbout = ({
   return (
     <div
       className="mx-auto max-w-md px-4 pb-10 font-sans antialiased md:max-w-7xl md:px-8 lg:px-12 ">
-      <div className="relative grid grid-cols-1 gap-20 md:grid-cols-2  ">
+      <div className="relative grid grid-cols-1 gap-20 lg:grid-cols-2  ">
         <motion.div 
           initial={{ x: -50}}
-        whileInView={{ x: 0}}
-        transition={{duration: 1, ease:"easeIn" }}
+          whileInView={{ x: 0}}
+          transition={{duration: 1, ease:"easeIn" }}
+          className="place-items-center"
         >
-          <div className="relative h-60 sm:h-100 w-full ">
+          <div className="relative h-60 sm:h-100 w-full md:w-[70%] lg:w-full">
             <AnimatePresence>
               {aboutInfo.map((item, index) => (
                 <motion.div
@@ -114,7 +115,7 @@ export const AnimatedAbout = ({
             <p className=" text-gray-500 dark:text-neutral-500 text-lg">
               {aboutInfo[active].subtitle}
             </p>
-            <motion.p className="mt-8 text-lg text-gray-500 dark:text-neutral-300">
+            <motion.p className="mt-8  text-lg text-gray-500 dark:text-neutral-300 ">
               {aboutInfo[active].description.split(" ").map((word, index) => (
                 <motion.span
                   key={index}

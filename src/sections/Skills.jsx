@@ -11,7 +11,7 @@ const Skills = () => {
     <section className=" max-container padding-x pt-10 " id="skills">
             <h1 className="text-4xl font-kanit text-blue-600 py-10 ">Skills</h1>
             <div className="place-content-center">
-                <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+                <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
                         <motion.div
                         initial={{  opacity: 0 }}
                         whileInView={{opacity:1,}}
