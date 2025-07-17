@@ -45,6 +45,7 @@ const Contact = () => {
             <div className="mb-4">
                 <button className="bg-blue-500 w-full hover:bg-blue-700 rounded px-2 py-1 cursor-pointer text-white">Send Message</button>
             </div>
+           
         </div>
     </section>
   );
