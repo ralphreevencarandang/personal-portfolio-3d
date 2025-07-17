@@ -42,7 +42,7 @@ const HeroWords = [
 const BentoGridItems = [
   {
     title: "NIKI",
-    description: "Explore the birth of groundbreaking ideas and inventions.",
+    description: "A React-based Netflix-inspired app that displays a dynamic gallery of NIKI photos with a familiar streaming UI.",
     className: "md:col-span-2",
     imgUrl: niki,
     websiteUrl: 'https://niki-xi-six.vercel.app/',
@@ -52,7 +52,7 @@ const BentoGridItems = [
   },
   {
     title: "NIKE",
-    description: "Dive into the transformative power of technology.",
+    description: "A sleek, responsive Nike landing page that highlights product features and branding using modern web design.",
     className: "md:col-span-1",
     imgUrl: nike,
     websiteUrl: 'https://nike-website-kohl-gamma.vercel.app/',
@@ -63,7 +63,7 @@ const BentoGridItems = [
   },
   {
     title: "Movie App",
-    description: "Discover the beauty of thoughtful and functional design.",
+    description: "A React-based movie discovery platform powered by an external movie API.",
     className: "md:col-span-1",
     imgUrl: movieApp,
     websiteUrl: 'https://movie-app-sand-five-87.vercel.app/',
@@ -75,7 +75,7 @@ const BentoGridItems = [
   {
     title: "Memoir App",
     description:
-      "Understand the impact of effective communication in our lives.",
+      "A note-taking web application built with the MERN stack for managing personal notes efficiently",
     className: "md:col-span-2",
     imgUrl: memoir,
     websiteUrl: 'https://memoirapp-frontend.onrender.com/',
@@ -85,7 +85,7 @@ const BentoGridItems = [
   },
   {
     title: "Dishcovery",
-    description: "Join the quest for understanding and enlightenment.",
+    description: "A recipe search application that provides rich cooking content fetched from a public API",
     className: "md:col-span-2",
     imgUrl: dishcovery,
     websiteUrl:'https://dishcovery-two.vercel.app/',
@@ -95,7 +95,7 @@ const BentoGridItems = [
   },
   {
     title: "Quotiva",
-    description: "Experience the thrill of bringing ideas to life.",
+    description: "A minimalist quote generator that displays random inspirational quotes ",
     className: "md:col-span-1",
     imgUrl:  quotiva,
     websiteUrl:'https://quotiva-ten.vercel.app/',
