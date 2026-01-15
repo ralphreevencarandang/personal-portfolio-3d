@@ -52,7 +52,7 @@ const HeroText = () => {
               </motion.h1>
 
         
-            <div className='py-5 flex gap-2'>
+            <div className='py-5 flex gap-2 items-center'>
                     <DownloadCVButton/>
                     <SocialIcons/>
             </div>

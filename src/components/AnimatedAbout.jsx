@@ -39,6 +39,8 @@ export const AnimatedAbout = ({
           initial={{ x: -50}}
           whileInView={{ x: 0}}
           transition={{duration: 1, ease:"easeIn" }}
+        viewport={{ once: true }}
+
           className="place-items-center"
         >
           <div className="relative h-60 sm:h-100 w-full md:w-[70%] lg:w-full">
@@ -90,6 +92,8 @@ export const AnimatedAbout = ({
         initial={{ x: 50}}
         whileInView={{ x: 0}}
         transition={{duration: 1, ease:"easeIn" }}
+        viewport={{ once: true }}
+
         >
           <motion.div
             key={active}

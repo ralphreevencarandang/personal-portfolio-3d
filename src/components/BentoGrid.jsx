@@ -40,6 +40,7 @@ export const BentoGridItem = ({
           ease:"circInOut"
         
         }}
+        viewport={{ once: true }}
       className={twMerge(
         "group/bento shadow-input row-span-1 flex flex-col justify-between space-y-4 rounded-xl border border-neutral-200 bg-white p-4 transition duration-200 hover:shadow-xl dark:border-white/[0.2] dark:bg-base-200 dark:shadow-none",
         className

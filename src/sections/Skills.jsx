@@ -16,6 +16,8 @@ const Skills = () => {
                         initial={{  opacity: 0 }}
                         whileInView={{opacity:1,}}
                         transition={{ duration: 1, ease:"easeIn"}}
+                        viewport={{ once: true }}
+
                         >
                               <Card icon={<FaCode size={25} className="text-blue-500"/>} title={'Frontend'} techStack={techStackIcon[0].frontend}/>
                         </motion.div>
@@ -23,14 +25,19 @@ const Skills = () => {
                         <motion.div
                           initial={{  opacity: 0 }}
                         whileInView={{opacity:1,}}
-                        transition={{ duration: 1.5, ease:"easeIn"}}>
+                        transition={{ duration: 1.5, ease:"easeIn"}}
+                        viewport={{ once: true }}
+                        >
+                          
                           <Card icon={<IoGitBranch size={25} className="text-blue-500"  /> } title={'Backend'} techStack={techStackIcon[0].backend}/>
                         </motion.div>
 
                         <motion.div
                         initial={{  opacity: 0}}
                         whileInView={{opacity:1,}}
-                        transition={{ duration: 2, ease:"easeIn"}}>
+                        transition={{ duration: 2, ease:"easeIn"}}
+                        viewport={{ once: true }}
+                        >
                           <Card icon={<FaTools size={25} className="text-blue-500"/> } title='Others' techStack={techStackIcon[0].tools}/>
                         </motion.div>
                 </div>
