@@ -68,7 +68,7 @@ const BentoGridItems = [
     imgUrl: movieApp,
     websiteUrl: 'https://movie-app-sand-five-87.vercel.app/',
     githubUrl:'https://github.com/ralphreevencarandang/MovieApp',
-     techStack: ['React', 'Tailwind', 'Appwrite']
+     techStack: ['React', 'TailwindCSS', 'Appwrite']
 
   
   },
