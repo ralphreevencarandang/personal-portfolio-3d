@@ -90,7 +90,7 @@ const BentoGridItems = [
     imgUrl: dishcovery,
     websiteUrl:'https://dishcovery-two.vercel.app/',
     githubUrl: 'https://github.com/ralphreevencarandang/RecipeFinder',
-    techStack: ['React', 'Tailwind']
+    techStack: ['React', 'TailwindCSS']
 
   },
   {
@@ -100,7 +100,7 @@ const BentoGridItems = [
     imgUrl:  quotiva,
     websiteUrl:'https://quotiva-ten.vercel.app/',
     githubUrl:'https://github.com/ralphreevencarandang/Quotiva',
-    techStack: ['React', 'Tailwind']
+    techStack: ['React', 'TailwindCSS']
 
   },
 
